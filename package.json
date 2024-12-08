@@ -1,0 +1,31 @@
+{
+  "name": "@byte-creators/config",
+  "version": "1.0.0",
+  "description": "congiguration files",
+  "main": "index.js",
+  "scripts": {
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "tailwindcss": "^3.4.1",
+    "stylelint": "^16.9.0",
+    "@it-incubator/eslint-config": "^1.0.3",
+    "@it-incubator/prettier-config": "^0.1.2",
+    "@it-incubator/stylelint-config": "^2.0.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest-dom": "^5.4.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-testing-library": "^6.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BiteCreators/config"
+  }
+}
