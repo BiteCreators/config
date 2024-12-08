@@ -4,6 +4,9 @@
   "description": "congiguration files",
   "main": "index.js",
   "scripts": {
+    "lint": "echo 'config package, nothing to lint'"
+    "test": "echo 'config package, nothing to test'"
+    "build": "echo 'config package, nothing to build'"
   },
   "peerDependencies": {
     "typescript": "^5",
