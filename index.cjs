@@ -1,13 +1,9 @@
-const eslintConfig = require("./.eslintrc.cjs");
-const stylelintConfig = require("./.stylelintrc.cjs");
-const prettierConfig = require("./.prettierrc.cjs");
-const tsConfig = require("./tsconfig.base.json");
-const tailwindConfig = require("./tailwind.config.cjs");
+const path = require('path');
 
 module.exports = {
-  eslintConfig,
-  stylelintConfig,
-  prettierConfig,
-  tsConfig,
-  tailwindConfig
+  eslint: path.join(__dirname, '.eslintrc.cjs'),
+  prettier: path.join(__dirname, '.prettierrc.cjs'),
+  tailwind: path.join(__dirname, 'tailwind.config.base.cjs'),
+  stylelint: path.join(__dirname, '.stylelintrc.cjs'),
+  tsconfig: path.join(__dirname, 'tsconfig.base.json'),
 };
