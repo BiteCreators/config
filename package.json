@@ -1,6 +1,6 @@
 {
   "name": "@byte-creators/config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "congiguration files",
   "main": "index.cjs",
   "types": "index.d.ts",
