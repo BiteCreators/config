@@ -6,5 +6,6 @@ module.exports = {
   prettier: path.join(__dirname, '.prettierrc.cjs'),
   tailwind,
   stylelint: path.join(__dirname, '.stylelintrc.cjs'),
-  tsconfig: path.join(__dirname, 'tsconfig.base.json'),
+  tsNext: path.join(__dirname, 'tsconfig.next.json'),
+  tsNpm: path.join(__dirname, 'tsconfig.npm.json'),
 };
